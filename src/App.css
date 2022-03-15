@@ -1,18 +1,28 @@
 
+body {
+  background-color: cornflowerblue;
+}
+
+
 .student {
-  margin: 10px 5px;
+  padding: 15px;
   background-color: lightgray;
   border: solid 2px black;
+  width: 50vw;
+  margin: 25px auto;
+  border-radius: 20px;
 }
 
 .name {
   font-style: italic;
   font-size: 1.5rem;
-  color: blue;
+  color: rgb(3, 99, 209);
 }
 
 .score{
-  color: red;
+  color: rgb(255, 0, 0);
+  background-color: rgb(240, 240, 240);
+  height: 55px;
 }
 
 .title {
